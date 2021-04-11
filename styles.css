@@ -155,10 +155,10 @@ div.snapshot-team p {
 
 div.snapshot-box {
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	overflow-x: auto;
 	background: #f0f0f0;
-	padding: 4rem 6rem;
+	padding: 3px 1px;
 }
 
 div.snapshot-box-content {
