@@ -273,16 +273,12 @@ div.footer-content p {
 }
 
 div.footer-input {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	padding-top: 3rem;
 }
 
 input[type='text'] {
-	margin-right: 10px;
-	padding: 10px 20px;
-	width: 25%;
+	width: 100%;
+	padding: 10px 12px;
 	outline: none;
 	border: 1px solid #bcc3c7;
 	background: transparent;
@@ -292,9 +288,9 @@ input[type='text'] {
 }
 
 input[type='email'] {
-	margin-right: 10px;
-	padding: 10px 20px;
-	width: 25%;
+	width: 100%;
+	margin-top: 12px;
+	padding: 10px 12px;
 	outline: none;
 	border: 1px solid #bcc3c7;
 	background: transparent;
@@ -315,9 +311,9 @@ div.footer-textarea {
 }
 
 textarea {
-	width: 51%;
+	width: 100%;
 	height: 150px;
-	padding: 0.5rem;
+	padding: 10px 12px;
 	outline: none;
 	border: 1px solid #bcc3c7;
 	background: transparent;
