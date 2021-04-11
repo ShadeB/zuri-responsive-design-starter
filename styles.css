@@ -349,3 +349,35 @@ div.footer h6 {
 		padding-bottom: 20px;
 	}
 }
+
+@media screen and (min-width: 768px) {
+	ul.nav-links {
+		display: flex;
+	}
+
+	div.hero-content-heading {
+		text-align: center;
+	}
+
+	div.hero-content-heading p {
+		text-align: center;
+	}
+
+	div.background p {
+		font-size: 1rem;
+	}
+
+	div.snapshot-team p {
+		padding: 25px 35px;
+	}
+
+	div.footer-input {
+		max-width: 350px;
+		margin: auto;
+	}
+
+	div.footer-textarea {
+		max-width: 350px;
+		margin: auto;
+	}
+}
